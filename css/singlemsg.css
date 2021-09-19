@@ -9,17 +9,32 @@ padding: 10px;
 form input{
     border: none;
 }
+footer{
+    /* background-image: url("images/bg.png"); */
+    position: sticky;
+    margin: 8px;
+    bottom: 0;
+    padding-bottom: 10px;
+}
 form{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
-    margin: 8px;
-    bottom: 0;
     width: 95%;
     display: flex;
     color: #818181;
 }
+.diviser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .diviser p{
+     color: #818181;
+     background-color: #d1edf9;
+     padding: 10px;
+     border-radius: 10px;
+ }
 .form-element i{
     font-size :18px
 }
@@ -42,28 +57,65 @@ form{
 .my-msg{
     /* min-width: 50%; */
 }
-.msgg{
+.my-msg .msgg{
+    float: right;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+.msg-style{
+    display: flex;
+    align-items: center;
+    /* padding: 0px; */
+    /* padding-left: 13px; */
+    margin: 0;
+    background-color: #e2ffc7;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+.my-msg .msgg p{
+    padding: 10px;
+    margin: 0;
+    background-color: #e2ffc7;
+    border-radius: 20px;
+}
+.my-msg .msgg .infomsg{
+    margin-top: 13px;
+    padding-left: 0px;
+    padding-right: 11px;
+}
 .msgg small{
     
 }
-.my-msg {
-    background-color: lawngreen;
-    border-radius: 20px;
+.my-msg { 
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
     margin-top: 10PX;
 }
 .her-msg {
-    background-color: rgb(223, 224, 222);
-    border-radius: 20px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
     margin-top: 10PX;
+}
+.her-msg .msgg{
+    /* float: right; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.her-msg .msgg p{
+    padding: 10px;
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.her-msg .msgg .infomsg{
+    margin-top: 13px;
+    padding-left: 0px;
+    padding-right: 11px;
+}
+.her-msg .msg-style{
+    background-color: #ffffff;
 }

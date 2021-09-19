@@ -1,0 +1,146 @@
+body{
+    background-color: #ffffff ;
+    margin: 0;
+    padding: 0;
+}
+/* header css*/
+.top-header-mobile{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dfedf0;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #075e55;
+}
+.nav-icons i{
+    margin: 7px;
+}
+.nav-item{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color:#dfedf0;
+    font-weight: bold;
+    width: 24%;
+}
+.active{
+    font-weight: bold;
+    color: #dfedf0;
+    text-decoration: none;
+    border-bottom: 5px solid;
+}
+/*end header css*/
+
+/* start messages list */
+.person-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.contact-msg{
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-right: 18px;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.namp-date{
+    margin-top: -14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(70, 70, 70);
+}
+.namp-date P{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 70, 70);
+}
+.msg-content{
+    margin-top: -26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.msg-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-content i{
+    margin-right: 8px;
+}
+.msg-content p{
+    color: #818181;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+small{
+    color: #818181;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* seen not seen  not delevred css */
+.not-seen{
+    color: #818181;
+}
+.seen{
+    color: rgb(15, 97, 173);
+}
+.not-delevred{
+    color: #818181 ;
+}
+.msg-notif{
+    background-color: #20c65a;
+    padding: 7px;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: ivory;
+    margin-left: 12px;
+}
+.msg-text{
+    color: #818181;
+    display:flex; align-items: center;
+}
+/* end messages list */
+
+/* start new chaaaaat  btn css  */
+.btn-show-contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}
+.btn-show-contact button{
+    background-color: #20c65a;
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+}
+.btn-show-contact i{
+    color: white;
+    font-size: 17px;
+}
+/* end new chaaaaat  btn  */
+
+/* footer css */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+  width: 90%;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #5f5e5e;
+}
+/* end fotter css */

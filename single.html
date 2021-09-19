@@ -180,20 +180,31 @@
         </div>
         <!-- end convertation -->
         <!-- start form  -->
-        <footer  style="background-image: url('images/bg.png'); padding-top: 9px;">
+        <footer style="background-image: url('images/bg.png'); padding-top: 9px;">
             <form action="">
                 <div class="form-element">
                     <i  class="far fa-grin-alt"></i>
-                    <input type="text" placeholder="Message">
+                    <input id="msgge" oninput="changebutnSubmit()" type="text" placeholder="Message">
                     <i class="fas fa-paperclip"></i>
                     <i class="fas fa-camera"></i>
                 </div>
-                <button><i class="fas fa-microphone"></i></button>
+                <button ><i id="iconbtn"  class="fas fa-microphone"></i></button>
             </form>
         </footer>
         <!-- end form -->
     </div>
 </body>
+<script>
+    function changebutnSubmit(){
+        var x =  document.getElementById('msgge').value;
+        if(!x == ""){
+            document.getElementById('iconbtn').className ='fas fa-paper-plane ';
+        }
+        else{
+            document.getElementById('iconbtn').className ='fas fa-microphone';
+        }
+    }
+</script>
 </html>
 <style>
 </style>

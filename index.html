@@ -8,6 +8,7 @@
  <html lang="en">
  <head>
      <meta charset="UTF-8">
+     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" type="image/x-icon">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
@@ -43,7 +44,7 @@
                  <div class="p-img">
                      <img class="person-img" src="images/img6.jpg">
                  </div>
-                 <div class="msg-cont">
+                 <div  class="single msg-cont">
                      <div class="namp-date">
                          <P>Elhajji Abdeljabar</P>
                          <small>22/10/2020</small>
@@ -61,7 +62,7 @@
                  <div class="p-img">
                      <img class="person-img" src="images/img1.jpg">
                  </div>
-                 <div class="msg-cont">
+                 <div class="single msg-cont">
                      <div class="namp-date">
                          <P>Youssef</P>
                          <small>22/10/2020</small>
@@ -78,9 +79,9 @@
              <!-- goup exemple -->
              <div class="contact-msg">
                  <div class="p-img">
-                     <img class="person-img" src="images/img1.jpg">
+                     <img class="person-img" src="images/img11.jfif">
                  </div>
-                 <div class="msg-cont">
+                 <div class="groupmsg msg-cont">
                      <div class="namp-date">
                          <P>Group classe 12</P>
                          <small>22/10/2020</small>
@@ -99,7 +100,7 @@
                  <div class="p-img">
                      <img class="person-img" src="images/img7.jpg">
                  </div>
-                 <div class="msg-cont">
+                 <div class="single msg-cont">
                      <div class="namp-date">
                          <P>Moul lkra </P>
                          <small class="notseen">22/10/2020</small>
@@ -118,7 +119,7 @@
                  <div class="p-img">
                      <img class="person-img" src="images/img.jpg">
                  </div>
-                 <div class="msg-cont">
+                 <div class="single msg-cont">
                      <div class="namp-date">
                          <P>Fati </P>
                          <small class="notseen">22/10/2020</small>
@@ -134,7 +135,7 @@
                  <div class="p-img">
                      <img class="person-img" src="images/img9.jpg">
                  </div>
-                 <div class="msg-cont">
+                 <div class="single msg-cont">
                      <div class="namp-date">
                          <P>Salma </P>
                          <small class="notseen">22/10/2020</small>
@@ -161,6 +162,18 @@
      </div>
  </body>
  </html>
- <style>
-     
- </style>
+ <script>
+     var groups = document.querySelectorAll(".groupmsg").length;
+    for (var i = 0; i < groups ; i++) {
+        document.querySelectorAll(".groupmsg")[i].addEventListener("click", function() {
+            document.location.href = 'group-msg.html';
+        });
+    }
+    // 
+    var sinle = document.querySelectorAll(".single").length;
+    for (var i = 0; i < sinle ; i++) {
+        document.querySelectorAll(".single")[i].addEventListener("click", function() {
+            document.location.href = 'single.html';
+        });
+    }
+ </script>

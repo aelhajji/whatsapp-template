@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>whatsapp</title>
 </head>
-<body>
+<body style="background-image: url('images/bg.png');">
     <div class="web">
 
     </div>
@@ -23,17 +23,16 @@
     <div class="mobile">
         <nav>
             <div class="top-header-mobile">
-                <h3>WhatsApp</h3>
+                <div style="display: flex; align-items: center; margin-left: 4px;">
+                    <a style="text-decoration: none; color: white;" href="index.html"><i class="fas fa-arrow-left"></i></a>
+                    <img style="margin-left: 3px; margin-right: 10px;" class="person-img" src="images/img6.jpg">
+                <h3>ELHAJJI</h3>
+                </div>
                 <div class="nav-icons">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-phone"></i>
                     <i class="fas fa-ellipsis-v"></i>
                 </div>
-            </div>
-            <div class="top-header-mobile navigation">
-                <i class="fas fa-camera"></i>
-                <a  class="active nav-item" href="">DISC.</a>
-                <a class="nav-item" href="">STATUT</a>
-                <a class="nav-item" href="">APPELS</a>
             </div>
         </nav>
     
@@ -63,10 +62,57 @@
             </div>
         </div>
         <!-- end convertation -->
+        <!-- start form  -->
+        <footer>
+            <form action="">
+                <div class="form-element">
+                    <i  class="far fa-grin-alt"></i>
+                    <input type="text" placeholder="Message">
+                    <i class="fas fa-paperclip"></i>
+                    <i class="fas fa-camera"></i>
+                </div>
+                <button><i class="fas fa-microphone"></i></button>
+            </form>
+        </footer>
+        <!-- end form -->
     </div>
 </body>
 </html>
 <style>
+    form button{
+        background-color: #075e55;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 10px;
+    }
+    form input{
+        border: none;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        margin: 8px;
+        bottom: 0;
+        width: 95%;
+        display: flex;
+        color: #818181;
+    }
+    .form-element i{
+        font-size :18px
+    }
+    .form-element{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: white;
+        width: 84%;
+    }
     .con-content{
         display: flex;
         flex-direction: column;

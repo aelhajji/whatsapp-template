@@ -15,7 +15,7 @@
     <meta name="keywords" content="whatsapp ,whats,HTML, CSS, JavaScript">
      <meta name="author" content="ELHAJJI ABDELJABAR">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
      <title>whatsapp</title>
  </head>
@@ -24,7 +24,7 @@
  
      </div>
      <!-- start nav part -->
-     <div class="mobile">
+     <div id="mobile" class="mobile">
              <div class="top-header-mobile">
                  <h3>WhatsApp</h3>
                  <div class="nav-icons">
@@ -256,6 +256,8 @@
      </div>
  </body>
  </html>
+ <script src="http://code.jquery.com/jquery-1.11.2.min.js"> </script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"> </script>
  <script>
      var groups = document.querySelectorAll(".groupmsg").length;
     for (var i = 0; i < groups ; i++) {
@@ -270,6 +272,20 @@
             document.location.href = 'single.html';
         });
     }
+
+    // swip left
+    $(document).ready(function(){
+    $(".mobile").on("swipeleft",function(){
+        document.location.href = 'statut.html';
+    });
+    });
+    // swip right
+    $(document).ready(function(){
+    $(".mobile").on("swiperight",function(){
+        // document.location.href = 'statut.html';
+        alert('not yet')
+    });
+    });
  </script>
  <style>
      

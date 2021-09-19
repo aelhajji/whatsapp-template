@@ -10,8 +10,9 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="singlemsg.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/statust.css">
+     <link rel="stylesheet" href="single.html">
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
      <title>whatsapp</title>
  </head>
@@ -238,30 +239,19 @@
     <!-- end new statu  btns -->
  </body>
  </html>
- <style>
-     .add-statut{
-        position: absolute;
-        margin-top: -25px;
-        margin-left: 27px;
-        display: flex;
-        align-items: center;
-        align-items: center;
-        background-color: #20c65a;
-        border-radius: 50%;
-        padding: 4px;
-     }
-    .title-storys p{
-        color: #818181;
-        margin-left: 15px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .notseen-story img{
-        padding: 1px;
-        border: 3px solid #20c65a;
-    }
-    .seen-story img{
-        padding: 1px;
-        border: 3px solid #818181;
-    }
- </style>
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"> </script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"> </script>
+ <script>
+     // swip left
+    $(document).ready(function(){
+    $(".mobile").on("swipeleft",function(){
+        document.location.href = 'appels.html';
+    });
+    });
+    // swip right
+    $(document).ready(function(){
+    $(".mobile").on("swiperight",function(){
+        document.location.href = 'index.html';
+    });
+    });
+ </script>

@@ -10,8 +10,10 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="singlemsg.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/singlemsg.css">
+     <link rel="stylesheet" href="css/appels.css">
+     <link rel="stylesheet" href="css/statust.css">
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
      <title>whatsapp</title>
  </head>
@@ -20,7 +22,7 @@
  
      </div>
      <!-- start nav part -->
-    <div class="mobile">
+    <div id="#mobile" class="mobile">
              <div class="top-header-mobile">
                  <h3>WhatsApp</h3>
                  <div class="nav-icons">
@@ -210,7 +212,7 @@
                     <img class="person-img" src="images/img1.jpg">
                 </div>
                 <div class="single msg-cont">
-                    <div class="namp-date">
+                    <div  class="namp-date">
                         <P>Youssef</P>
                         <i class="fas fa-phone"></i>
                     </div>
@@ -230,16 +232,22 @@
         <button><i class="fas fa-phone-plus"></i></button>
     </div>
     <!-- end new apepel  btn -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"> </script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"> </script>
+   <script>
+       // swip left
+    //   $(document).ready(function(){
+    //   $(".mobile").on("swipeleft",function(){
+    //       document.location.href = 'appels.html';
+    //   });
+    //   });
+      // swip right
+      $(document).load(function(){
+      $(".mobile").on("swiperight",function(){
+          document.location.href = 'statut.html';
+      });
+      });
+   </script>
  </body>
  </html>
- <style>
-    .to-top-arrow{
-         color: red;
-         transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
-    }
-    .to-bottom-arrow{
-        color: seagreen;
-        transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
-
-    }
- </style>
+ 

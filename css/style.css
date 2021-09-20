@@ -44,6 +44,9 @@ body{
     font-weight: bold;
     width: 24%;
 }
+.hover:hover{
+    background-color: rgba(187, 184, 187, 0.336) !important;
+}
 .active{
     font-weight: bold;
     color: #dfedf0;
@@ -69,6 +72,8 @@ body{
     justify-items: stretch;
     align-items: stretch;
 }
+
+
 .namp-date{
     margin-top: -14px;
     display: flex;

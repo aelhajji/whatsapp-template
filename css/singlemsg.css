@@ -30,6 +30,7 @@ form{
     justify-content: center;
  }
  .diviser p{
+     font-family: Arial, Helvetica, sans-serif;
      color: #818181;
      background-color: #d1edf9;
      padding: 10px;
@@ -118,4 +119,29 @@ form{
 }
 .her-msg .msg-style{
     background-color: #ffffff;
+}
+
+.mg-msg-style{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-bottom: 17px; */
+    /* padding: 10px; */
+}
+.mg-msg-style img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+    /* padding-bottom: 17px; */
+}
+.msgg .mg-msg-style small {
+   /* left: 0; */
+   margin-top: -35px;
+   /* margin-bottom: -54px; */
+   margin-left: 85%;
+}
+.mg-msg-style .infomsg small{
+   float: left;
+   margin-top: -20px;
 }

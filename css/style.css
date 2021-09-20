@@ -1,5 +1,20 @@
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
+/*index page css */
 body{
-    background-color: #ffffff ;
     margin: 0;
     padding: 0;
 }
@@ -148,3 +163,281 @@ footer p{
   color: #5f5e5e;
 }
 /* end fotter css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+/* single.html */
+
+
+form button{
+    background-color: #075e55;
+border-radius: 50%;
+color: white;
+border: none;
+margin-left: 10px;
+padding: 10px;
+}
+form input{
+    border: none;
+}
+footer{
+    /* background-image: url("images/bg.png"); */
+    position: sticky;
+    margin: 8px;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    display: flex;
+    color: #818181;
+}
+.diviser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .diviser p{
+     font-family: Arial, Helvetica, sans-serif;
+     color: #818181;
+     background-color: #d1edf9;
+     padding: 10px;
+     border-radius: 10px;
+ }
+.form-element i{
+    font-size :18px
+}
+.form-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    width: 84%;
+}
+.con-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.my-msg{
+    /* min-width: 50%; */
+}
+.my-msg .msgg{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.msg-style{
+    display: flex;
+    align-items: center;
+    /* padding: 0px; */
+    /* padding-left: 13px; */
+    margin: 0;
+    background-color: #e2ffc7;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+.my-msg .msgg p{
+    padding: 10px;
+    margin: 0;
+    background-color: #e2ffc7;
+    border-radius: 20px;
+}
+.my-msg .msgg .infomsg{
+    margin-top: 13px;
+    padding-left: 0px;
+    padding-right: 11px;
+}
+.msgg small{
+    
+}
+.my-msg { 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10PX;
+}
+.her-msg {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10PX;
+}
+.her-msg .msgg{
+    /* float: right; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.her-msg .msgg p{
+    padding: 10px;
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.her-msg .msgg .infomsg{
+    margin-top: 13px;
+    padding-left: 0px;
+    padding-right: 11px;
+}
+.her-msg .msg-style{
+    background-color: #ffffff;
+}
+
+.msg-style{
+    padding: 4px;
+    padding-right: 12px;
+    padding-left: 17px;
+ }
+.her-msg-style{
+padding-left: 12px;
+padding-right: 12px;
+display: flex;
+align-items: center;
+border-radius: 12px;
+padding-top: 22px;
+background-color: white;
+}
+.mssg-name-person{
+    color: tomato;
+    position: absolute; 
+    margin-bottom: 10px;
+    margin-left: 18px;
+    margin-top: 22px;
+    margin-top: -6px;
+    position: absolute;
+}
+.mg-msg-style{
+     background-color: rgb(255, 255, 255);
+     border-radius: 12px;
+     padding-top: 40px;
+     padding-left: 10px;
+     padding-right: 10px;
+     /* padding-bottom: 17px; */
+     /* padding: 10px; */
+ }
+ .mg-msg-style img{
+     border-radius: 9px;
+     margin-bottom: 10px;
+     /* padding-bottom: 17px; */
+ }
+ .msgg .mg-msg-style small {
+    /* left: 0; */
+    margin-top: -35px;
+    /* margin-bottom: -54px; */
+    margin-left: 85%;
+}
+ .mg-msg-style .infomsg small{
+    float: left;
+    margin-top: -20px;
+ }
+
+
+ /* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+/* statut page css */
+
+
+.add-statut{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 27px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    background-color: #20c65a;
+    border-radius: 50%;
+    padding: 4px;
+ }
+ .title-storys p{
+    color: #818181;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .notseen-story img{
+    padding: 1px;
+    border: 3px solid #20c65a;
+ }
+ .seen-story img{
+    padding: 1px;
+    border: 3px solid #818181;
+ }
+
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+/*appels page css */
+ 
+.to-top-arrow{
+    color: red;
+    transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+}
+.to-bottom-arrow{
+   color: seagreen;
+   transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+
+}
